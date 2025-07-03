@@ -9,7 +9,7 @@ header{
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-
+    margin-bottom: 1%;
 }
 
 ul{
@@ -25,11 +25,104 @@ ul{
     position: relative;
     bottom: 15px;
     color: rgb(150, 150, 150);
-    border: 2px solid;
 }
 
 #N1{
     background-color: rgb(33, 173, 255);
-    padding: 1% 2%;
+    padding: 1% 1%;
     color: white;
+}
+
+.primeiraParte{
+    background-image: url(imagens/img1.jpg);
+    background-size: cover;
+    background-repeat: none;
+    color: white;
+}
+
+#tituloMaior{
+    font-size: 400%;
+    padding: 3% 0% 1% 10%;
+}
+
+#introducao{
+    font-size: 130%;
+    padding: 0% 0% 5% 10%;
+}
+.linhas{
+    display: flex;
+    margin-left: 10%;
+}
+
+#LT1{
+    width: 13%;
+    border: 2px solid;
+    position: relative;
+    top: 3px;
+}
+
+#LT2, #LT3{
+    width: 13%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.NumerosTitulo{
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+#NT1{
+    display: inline-block;
+    font-size: 90%;
+    margin-top: 0.3%;
+}
+
+#NT2{
+    display: inline-block;
+    margin-left: 12.4%;
+    font-size: 90%;
+}
+
+.Quadrados{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0% 10%;
+}
+
+.QuadradoEmergencia{
+    background-color: rgb(43, 175, 236);
+    width: 34%;
+}
+
+.QuadradoDoutor{
+    background-color: rgb(20, 125, 173);
+    width: 34%;
+}
+
+.QuadradoHoras{
+    background-color: rgb(34, 90, 153);
+    width: 34%;
+}
+
+.TQ{
+    padding: 4% 0% 0% 4%;
+    font-size: 200%;
+}
+
+.PQ{
+    padding: 3% 19% 0% 4%;
+    font-size: 120%;
+}
+
+.ReadMore{
+    margin: 5% 0% 8% 4%;
+    padding: 1%;
+    background-color: rgb(43, 175, 236);
+    border: 1px solid white;
+    color: white;
+}
+
+#B2{
+    background-color: rgb(20, 125, 173);
 }

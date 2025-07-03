@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+ul{
+    width: 50%;
+}
+
+.cabeçario{
+    margin-left: 10px;
+    display: inline;
+}
+
+#N1, #N2, #N3, #N4, #N5, #N6, #N7 {
+    position: relative;
+    bottom: 15px;
+    color: rgb(150, 150, 150);
+    border: 2px solid;
+}
+
+#N1{
+    background-color: rgb(33, 173, 255);
+    padding: 1% 2%;
+    color: white;
+}

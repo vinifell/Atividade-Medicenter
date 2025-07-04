@@ -225,8 +225,10 @@ ul{
 
 #PrimeiraColuna{
     margin-left: 8%;
-    margin-right: 42.1%;
+    margin-right: 0%;
     border: 2px solid;
+    display: inline-block;
+    width: 49.9%;
 }
 
 main{
@@ -234,24 +236,35 @@ main{
     flex-wrap: wrap;
 }
 
-.SegundaColuna{
-    display: flex;
+#SegundaColuna{
+    width: 40%;
     border: 2px solid;
-    width: 20%;
-}
-
-.SegundaParte{
-    display: flex;
-    align-items: flex-start;
+    margin-left: 2.1%;
 }
 
 #Departamento{
+    margin: 3.6% 0% 0.7% 3.7%;
+}
 
+#LineDep{
+    width: 7%;;
+    margin: 0% 3.7%;
+    border: 1px solid rgb(0, 174, 255);
+}
+
+#containerbox{
+    margin-left: 0.7%;
 }
 
 .box{
     content: "";
-    width: 60px;
-    background-color: blue;
-    margin: 2px;
+    width: 40%;
+    height: 30vh;
+    background-color: rgb(22, 166, 255);
+    margin: 2% 0% 2% 3%;
+    display: inline-block;
+}
+
+#Juntar{
+    display: flex;
 }

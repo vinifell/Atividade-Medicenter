@@ -6,14 +6,14 @@
 header{
     background-color: rgb(255, 255, 255);
     margin-top: 1%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
     margin-bottom: 1%;
 }
 
 ul{
-    width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cabeçario{
@@ -23,7 +23,6 @@ ul{
 
 #N1, #N2, #N3, #N4, #N5, #N6, #N7 {
     position: relative;
-    bottom: 15px;
     color: rgb(150, 150, 150);
 }
 
@@ -136,18 +135,18 @@ ul{
 }
 
 .Hours{
-    display: inline-block;
-    margin-left: 56%;
+    display: inline-block;  
+    margin-left: 47%;
 }
 
 .Hours2{
     display: inline-block;
-    margin-left: 66.5%;
+    margin-left: 60%;
 }
 
 .Hours3{
     display: inline-block;
-    margin-left: 68%;
+    margin-left: 62%;
 }
 
 .LinhaAzul{
@@ -196,8 +195,8 @@ ul{
     width: 0;
     height: 0;
     position: absolute;
-    border-right: 20px solid transparent;
-    border-top: 20px solid rgb(30, 30, 190);
+    border-right: 12px solid transparent;
+    border-top: 12px solid rgb(30, 30, 190);
     top: 20px;
     left: 0px;
 }
@@ -226,7 +225,6 @@ ul{
 #PrimeiraColuna{
     margin-left: 8%;
     margin-right: 0%;
-    border: 2px solid;
     display: inline-block;
     width: 49.9%;
 }
@@ -236,35 +234,79 @@ main{
     flex-wrap: wrap;
 }
 
-#SegundaColuna{
-    width: 40%;
-    border: 2px solid;
-    margin-left: 2.1%;
-}
-
-#Departamento{
+#TituloDep{
     margin: 3.6% 0% 0.7% 3.7%;
 }
 
 #LineDep{
-    width: 7%;;
+    width: 9%;
     margin: 0% 3.7%;
     border: 1px solid rgb(0, 174, 255);
 }
 
 #containerbox{
     margin-left: 0.7%;
+    margin-bottom: 0%;
 }
 
 .box{
     content: "";
-    width: 40%;
-    height: 30vh;
+    width: 32%;
+    height: 23vh;
     background-color: rgb(22, 166, 255);
     margin: 2% 0% 2% 3%;
     display: inline-block;
 }
 
-#Juntar{
+#SegundaParte{
     display: flex;
+}
+
+#SegundaColuna{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.1%;
+    width: 40%;
+    padding: 0%;
+}
+
+#Make{
+    margin: 2% 0% 0.5% 3.6%;
+}
+
+#Consulta{
+    margin-top: 1%;
+    width: 75%;
+}
+
+#LineCon{
+    width: 12%;
+    margin: 0% 3.7%;
+    border: 1px solid rgb(0, 174, 255);
+}
+
+#DescConsulta{
+    margin: 2% 0% 5% 3.6%;
+}
+
+.GrayLine{
+    width: 92%;
+    margin: 0% 0% 2% 3.7%;
+}
+
+.icon{
+    margin-left: 3.7%;
+    width: 5%;
+    display: inline-block;
+}
+
+.by{
+    display: inline-block;
+    margin-left: 0.3%;
+}
+
+.Contato{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
 }

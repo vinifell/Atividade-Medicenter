@@ -55,16 +55,14 @@ ul{
 }
 
 #LT1{
-    width: 13%;
+    width: 29.4%;
     border: 2px solid;
     position: relative;
     top: 3px;
 }
 
 #LT2, #LT3{
-    width: 13%;
-    margin: 0%;
-    padding: 0%;
+    width: 29.4%;
 }
 
 .NumerosTitulo{
@@ -80,7 +78,7 @@ ul{
 
 #NT2{
     display: inline-block;
-    margin-left: 12.4%;
+    margin-left: 28.6%;
     font-size: 90%;
 }
 
@@ -126,3 +124,74 @@ ul{
 #B2{
     background-color: rgb(20, 125, 173);
 }
+
+#TituloHoras{
+    padding: 4% 0% 0% 4%;
+    font-size: 200%;
+}
+
+.Day{
+    padding: 3% 0% 2% 4%;
+    display: inline-block;
+}
+
+.Hours{
+    display: inline-block;
+    margin-left: 56%;
+}
+
+.Hours2{
+    display: inline-block;
+    margin-left: 66.5%;
+}
+
+.Hours3{
+    display: inline-block;
+    margin-left: 68%;
+}
+
+.LinhaAzul{
+    margin-left: 4.2%;
+    width: 92.5%;
+    border: 1px solid rgb(21, 144, 201);
+}
+
+#News{
+    margin: 2% 0% 0.4% 9.8%;
+}
+
+.LineTitle{
+    width: 2.5%;
+    margin: 0% 9.85%;
+    border: 1px solid rgb(0, 174, 255);
+}
+
+.DayJan{
+    background-color: rgb(30, 30, 190);
+    color: white;
+    padding: 0.5%;
+    display: inline-block;
+    margin: 1.2% 0% 2% 9.85%;
+    position: relative;
+}
+
+.Day2{
+    background-color: rgb(22, 166, 255);
+    color: white;
+    display: inline-block;
+    padding: 0.5%;
+    position: relative;
+    right: 0.1%;
+}
+
+.DayJan::after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgb(30, 30, 190);
+    top: 27px;
+    left: 0px;
+}
+

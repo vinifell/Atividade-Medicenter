@@ -370,10 +370,10 @@ footer{
 }
 
 .TFinal2{
-    margin: 5% 0% 1.5% 3.7%;
+    margin: 5% 0% 0% 3.7%;
     border: 2px solid white;
     padding-right: 40%;
-    padding-bottom: 0%;
+    height: 4vh;
 }
 
 .SFinal2{
@@ -385,12 +385,14 @@ footer{
 
 .Setas{
     margin: 5% 0% 1.5% 0%;
+    padding-right: 24.5%;
     display: flex;
+    border: 2px solid white;
 }
 
 .Seta1{
     padding: 0% 30%;
-    height: 4vh;
+    height: 3.4vh;
     margin-left: 10%;
     background-color: black;
     color: white;
@@ -399,7 +401,7 @@ footer{
 
 .Seta2{
     padding: 0% 30%;
-    height: 4vh;
+    height: 3.4vh;
     margin-left: 10%;
     background-color: black;
     color: white;
@@ -409,9 +411,9 @@ footer{
 #LinePost{
     width: 11%;
     height: 0vh;
-    margin-top: 2%;
-    margin-left: 15%;
+    margin-left: 3.7%;
     margin-bottom: 1%;
+    margin-right: 85%;
     position: relative;
     border: 1px solid rgb(0, 174, 255);
 }
@@ -422,24 +424,28 @@ footer{
 }
 
 #months{
-    margin: 0% 10% 13% 5.5%;
+    margin-left: 6.3%;
     font-size: 80%;
     color: rgb(0, 156, 223);
+    padding-right: 80%;
 }
 
 .SetaD{
     position: relative;
     height: 20px;
+    padding: 2% 0% 0% 4%;
 }
 
 .DesPo{
     position: relative;
-    margin-bottom: 0%;
+    margin-left: 1%;
+    padding-top: 2%;
+    height: 3.3vh;
 }
 
 #SetaD2{
     height: 20px;
-    margin: 3% 0% 0% 0%;
+    padding: 1% 1% 0% 3%;
 }
 
 #DesPo2{

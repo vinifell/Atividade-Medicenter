@@ -219,15 +219,13 @@ ul{
 .Noticias{
     width: 44.4%;
     padding-bottom: 3%;
-    margin: 2% 0% 1% 3.7%;
-    border: 2px solid black;
+    margin: 2% 0% 1% 4%;
 }
 
 #PrimeiraColuna{
-    margin-left: 8%;
+    margin-left: 7.8%;
     display: inline-block;
     width: 59%;
-    border: 2px solid black;
 }
 
 main{
@@ -236,17 +234,17 @@ main{
 }
 
 #TituloDep{
-    margin: 3.6% 0% 0.7% 3.7%;
+    margin: 3.6% 0% 0.7% 3.2%;
 }
 
 #LineDep{
     width: 9%;
-    margin: 0% 3.7%;
+    margin: 0% 3.4%;
     border: 1px solid rgb(0, 174, 255);
 }
 
 #containerbox{
-    margin-left: 0.7%;
+    margin-left: 0.4%;
     margin-bottom: 0%;
 }
 
@@ -267,7 +265,6 @@ main{
     display: flex;
     flex-direction: column;
     width: 40%;
-    padding: 0%;
 }
 
 #Make{
@@ -276,7 +273,7 @@ main{
 
 #Consulta{
     margin-top: 1%;
-    width: 75%;
+    width: 74%;
 }
 
 #LineCon{
@@ -311,6 +308,11 @@ main{
     margin-bottom: 2%;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(22, 22, 190);
+}
+
 footer{
     background-color: black;
     color: white;
@@ -322,4 +324,124 @@ footer{
 
 .DSB{
     padding: 0% 0% 4% 4%;
+}
+
+.SFinal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 34%;
+    border: 2px solid white;
+}
+
+.TFinal{
+    margin: 5% 0% 1.5% 3.7%;
+    border: 2px solid white;
+}
+
+#LineMedi{
+    width: 11%;
+    margin: 0% 3.7%;
+    border: 1px solid rgb(0, 174, 255);
+}
+
+.DFinal{
+    margin: 3% 0% 0% 3.7%;
+    color: rgb(81, 81, 81);
+    font-size: 90%;
+}
+
+#Endereco{
+    width: 50%;
+}
+
+.NumEmai{
+    padding-top: 13%;
+}
+
+.iconsfooter{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.icon2{
+    margin-left: 0.7%;
+    width: 5%;
+    display: inline-block;
+}
+
+.TFinal2{
+    margin: 5% 0% 1.5% 3.7%;
+    border: 2px solid white;
+    padding-right: 40%;
+    padding-bottom: 0%;
+}
+
+.SFinal2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 34%;
+    border: 2px solid white;
+}
+
+.Setas{
+    margin: 5% 0% 1.5% 0%;
+    display: flex;
+}
+
+.Seta1{
+    padding: 0% 30%;
+    height: 4vh;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+    border: 0.1vh solid rgb(129, 129, 129);
+}
+
+.Seta2{
+    padding: 0% 30%;
+    height: 4vh;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+    border: 0.1vh solid rgb(129, 129, 129);
+}
+
+#LinePost{
+    width: 11%;
+    height: 0vh;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 1%;
+    position: relative;
+    border: 1px solid rgb(0, 174, 255);
+}
+
+.Squares{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#months{
+    margin: 0% 10% 13% 5.5%;
+    font-size: 80%;
+    color: rgb(0, 156, 223);
+}
+
+.SetaD{
+    position: relative;
+    height: 20px;
+}
+
+.DesPo{
+    position: relative;
+    margin-bottom: 0%;
+}
+
+#SetaD2{
+    height: 20px;
+    margin: 3% 0% 0% 0%;
+}
+
+#DesPo2{
+
 }

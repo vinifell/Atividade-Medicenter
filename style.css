@@ -326,11 +326,12 @@ footer{
     padding: 0% 0% 4% 4%;
 }
 
-.SFinal{
+.UltimasInf{
     display: flex;
     flex-wrap: wrap;
     width: 34%;
     border: 2px solid white;
+    padding-bottom: 3%;
 }
 
 .TFinal{
@@ -371,28 +372,21 @@ footer{
 
 .TFinal2{
     margin: 5% 0% 0% 3.7%;
-    border: 2px solid white;
     padding-right: 40%;
-    height: 4vh;
-}
-
-.SFinal2{
-    display: flex;
-    flex-wrap: wrap;
-    width: 34%;
-    border: 2px solid white;
+    padding-bottom: 0%;
+    height: 3.5vh;
 }
 
 .Setas{
-    margin: 5% 0% 1.5% 0%;
-    padding-right: 24.5%;
+    margin: 5% 0% 0% 12%;
+    padding-right: 10%;
     display: flex;
-    border: 2px solid white;
+    height: 4vh;
 }
 
 .Seta1{
     padding: 0% 30%;
-    height: 3.4vh;
+    height: 4vh;
     margin-left: 10%;
     background-color: black;
     color: white;
@@ -401,53 +395,51 @@ footer{
 
 .Seta2{
     padding: 0% 30%;
-    height: 3.4vh;
+    height: 4vh;
     margin-left: 10%;
     background-color: black;
     color: white;
     border: 0.1vh solid rgb(129, 129, 129);
 }
 
-#LinePost{
-    width: 11%;
+.LineFooter{
+    width: 10%;
     height: 0vh;
     margin-left: 3.7%;
-    margin-bottom: 1%;
-    margin-right: 85%;
-    position: relative;
+    margin-right: 17%;
     border: 1px solid rgb(0, 174, 255);
+    position: relative;
+    bottom: 2%;
 }
 
 .Squares{
     display: flex;
-    flex-wrap: wrap; 
-}
-
-#months{
-    margin-left: 6.3%;
-    font-size: 80%;
-    color: rgb(0, 156, 223);
-    padding-right: 80%;
+    justify-content: space-evenly;
+    margin: 0% 10%; 
 }
 
 .SetaD{
+    display: inline-block;
     position: relative;
-    height: 20px;
-    padding: 2% 0% 0% 4%;
+    bottom: 30%;
 }
 
 .DesPo{
-    position: relative;
-    margin-left: 1%;
-    padding-top: 2%;
-    height: 3.3vh;
+    display: inline-block;
 }
 
-#SetaD2{
-    height: 20px;
-    padding: 1% 1% 0% 3%;
+.escrita{
+    border: 1px solid white;
+    margin-left: 3.7%;
+    margin-right: 25%;  
 }
 
-#DesPo2{
+.months{
+    font-size: 70%;
+    padding-left: 3%;
+    color: rgb(0, 174, 255);
+}
 
+#LineTweets{
+    margin-top: 2%;
 }

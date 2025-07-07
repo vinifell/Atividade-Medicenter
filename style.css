@@ -136,7 +136,7 @@ ul{
 
 .Hours{
     display: inline-block;  
-    margin-left: 47%;
+    margin-left: 49.4%;
 }
 
 .Hours2{
@@ -330,13 +330,12 @@ footer{
     display: flex;
     flex-wrap: wrap;
     width: 34%;
-    border: 2px solid white;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
+    padding-right: 1%;
 }
 
 .TFinal{
     margin: 5% 0% 1.5% 3.7%;
-    border: 2px solid white;
 }
 
 #LineMedi{
@@ -372,14 +371,17 @@ footer{
 
 .TFinal2{
     margin: 5% 0% 0% 3.7%;
-    padding-right: 40%;
-    padding-bottom: 0%;
     height: 3.5vh;
+    width: 36%;
+}
+
+.juntando{
+    display: flex;
 }
 
 .Setas{
-    margin: 5% 0% 0% 12%;
-    padding-right: 10%;
+    margin: 5% 0% 0% 44%;
+    padding-right: 7.5%;
     display: flex;
     height: 4vh;
 }
@@ -387,7 +389,7 @@ footer{
 .Seta1{
     padding: 0% 30%;
     height: 4vh;
-    margin-left: 10%;
+    margin-left: 0%;
     background-color: black;
     color: white;
     border: 0.1vh solid rgb(129, 129, 129);
@@ -396,7 +398,7 @@ footer{
 .Seta2{
     padding: 0% 30%;
     height: 4vh;
-    margin-left: 10%;
+    margin-left: 1%;
     background-color: black;
     color: white;
     border: 0.1vh solid rgb(129, 129, 129);
@@ -408,8 +410,8 @@ footer{
     margin-left: 3.7%;
     margin-right: 17%;
     border: 1px solid rgb(0, 174, 255);
-    position: relative;
-    bottom: 2%;
+    margin-bottom: 5%;
+    margin-top: 1%;
 }
 
 .Squares{
@@ -418,10 +420,15 @@ footer{
     margin: 0% 10%; 
 }
 
+.UltimasInf2{
+    width: 34%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
 .SetaD{
     display: inline-block;
-    position: relative;
-    bottom: 30%;
+    margin-right: 1%;
 }
 
 .DesPo{
@@ -429,9 +436,14 @@ footer{
 }
 
 .escrita{
-    border: 1px solid white;
     margin-left: 3.7%;
-    margin-right: 25%;  
+    margin-right: 0%; 
+    padding-bottom: 4%;
+    margin-bottom: 2%;
+}
+
+.parte1escrita{
+    display: flex;
 }
 
 .months{
@@ -439,7 +451,24 @@ footer{
     padding-left: 3%;
     color: rgb(0, 174, 255);
 }
+#separarodape{
+    margin: 0% 10%;
+    color: rgb(17, 17, 17);
+    border: 1px solid rgb(17, 17, 17);
+}
 
-#LineTweets{
-    margin-top: 2%;
+#escritarodape{
+    display: flex;
+    margin: 0% 10%;
+    justify-content: space-between;
+    color: rgb(68, 68, 68);
+}
+
+.color{
+    color: white;
+    padding: 0%;
+}
+
+span{
+    color: white;
 }

@@ -24,6 +24,7 @@ ul{
 #N1, #N2, #N3, #N4, #N5, #N6, #N7 {
     position: relative;
     color: rgb(150, 150, 150);
+    cursor: pointer;
 }
 
 #N1{
@@ -118,6 +119,7 @@ ul{
     background-color: rgb(43, 175, 236);
     border: 1px solid white;
     color: white;
+    cursor: pointer;
 }
 
 #B2{
@@ -367,6 +369,7 @@ footer{
     margin-left: 0.7%;
     width: 5%;
     display: inline-block;
+    cursor: pointer;
 }
 
 .TFinal2{
@@ -393,15 +396,17 @@ footer{
     background-color: black;
     color: white;
     border: 0.1vh solid rgb(129, 129, 129);
+    cursor: pointer;
 }
 
 .Seta2{
     padding: 0% 30%;
     height: 4vh;
-    margin-left: 1%;
+    margin-left: 3%;
     background-color: black;
     color: white;
     border: 0.1vh solid rgb(129, 129, 129);
+    cursor: pointer;
 }
 
 .LineFooter{
@@ -450,6 +455,7 @@ footer{
     font-size: 70%;
     padding-left: 3%;
     color: rgb(0, 174, 255);
+
 }
 #separarodape{
     margin: 0% 10%;
@@ -460,8 +466,10 @@ footer{
 #escritarodape{
     display: flex;
     margin: 0% 10%;
+    height: 5vh;
     justify-content: space-between;
     color: rgb(68, 68, 68);
+    align-items: center;
 }
 
 .color{
@@ -471,4 +479,35 @@ footer{
 
 span{
     color: white;
+}
+
+.Top{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#N2:hover, #N3:hover, #N4:hover, #N5:hover, #N6:hover, #N7:hover{
+    background-color: rgb(150, 150, 150);
+    color: white;
+    padding: 1% 1%;
+}
+
+.ReadMore:hover{
+    color: rgb(0, 0, 0);
+}
+
+.Noticias:hover{
+    border: 1px solid;
+    overflow: hidden;
+}
+
+.medico:hover{
+    scale: 1.1;
+}
+
+.Seta1:hover, .Seta2:hover{
+    padding: 0% 40%;
+    height: 4.5vh;
 }

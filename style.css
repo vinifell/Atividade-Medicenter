@@ -10,10 +10,11 @@ header{
 }
 
 ul{
-    width: 100%;
+    width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 1% 10%;
 }
 
 .cabeçario{

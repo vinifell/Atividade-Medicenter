@@ -128,33 +128,21 @@ ul{
 }
 
 #TituloHoras{
-    padding: 4% 0% 0% 4%;
+    padding: 4% 0% 2% 4%;
     font-size: 200%;
 }
 
-.Day{
-    padding: 3% 0% 2% 4%;
-    display: inline-block;
-}
-
-.Hours{
-    display: inline-block;  
-    margin-left: 49.4%;
-}
-
-.Hours2{
-    display: inline-block;
-    margin-left: 60%;
-}
-
-.Hours3{
-    display: inline-block;
-    margin-left: 62%;
+.Dia-Hora{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 2% 4%;
+    margin-right: 5%;
 }
 
 .LinhaAzul{
     margin-left: 4.2%;
-    width: 92.5%;
+    margin-right: 5%;
     border: 1px solid rgb(21, 144, 201);
 }
 

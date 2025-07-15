@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+
+    .cabeçario{
+        display: none;
+    }
+
+    #logo{
+        display: block;
+    }
+
+    .menu{
+        display: block;
+        width: 8%;
+        height: 40%;
+        margin-left: 40%;
+    }
+
+    .linhaMenu{
+        background-color: black;
+        height: 0.5vh;
+        margin-bottom: 4px;
+    }
+
+    ul{
+        justify-content: space-between;
+        border: 2px solid;
+    }
+}

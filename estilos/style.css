@@ -10,11 +10,22 @@ header{
 }
 
 ul{
-    width: 80%;
+    width: contain;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 1% 10%;
+}
+
+.navegar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.menu{
+    display: none;
 }
 
 .cabeçario{
@@ -36,9 +47,10 @@ ul{
 }
 
 .primeiraParte{
-    background-image: url(imagens/img1.jpg);
+    background-image: url(../imagens/img1.jpg);
     background-size: cover;
     background-repeat: none;
+    background-position: center center;
     color: white;
 }
 
@@ -500,4 +512,37 @@ span{
 .Seta1:hover, .Seta2:hover{
     padding: 0% 40%;
     height: 4.5vh;
+}
+
+@media screen and (min-width: 760px) and (max-width: 980px) {
+    ul{
+        height: 10vh;
+    }
+    .navegar{
+        height: contain;
+        line-height: 200%;
+        width: contain;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 760px){
+
+    .navegar{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        position: relative;
+        width: 8%;
+        height: 40%;
+    }
+
+    .linhaMenu{
+        background-color: black;
+        height: 0.5vh;
+        margin-bottom: 4px;
+    }
 }

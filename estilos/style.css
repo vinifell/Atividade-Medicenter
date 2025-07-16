@@ -29,14 +29,14 @@ ul{
 }
 
 .cabeçario{
-    margin-left: 10px;
-    display: inline;
+    list-style-type: none;
 }
 
 #N1, #N2, #N3, #N4, #N5, #N6, #N7 {
     position: relative;
     color: rgb(150, 150, 150);
     cursor: pointer;
+    font-size: 1vw;
 }
 
 #N1{
@@ -55,12 +55,12 @@ ul{
 }
 
 #tituloMaior{
-    font-size: 400%;
+    font-size: 4vw;
     padding: 3% 0% 1% 10%;
 }
 
 #introducao{
-    font-size: 130%;
+    font-size: 1.1vw;
     padding: 0% 0% 5% 10%;
 }
 .linhas{
@@ -119,12 +119,12 @@ ul{
 
 .TQ{
     padding: 4% 0% 0% 4%;
-    font-size: 200%;
+    font-size: 1.7vw;
 }
 
 .PQ{
     padding: 3% 19% 0% 4%;
-    font-size: 120%;
+    font-size: 1vw;
 }
 
 .ReadMore{
@@ -134,6 +134,7 @@ ul{
     border: 1px solid white;
     color: white;
     cursor: pointer;
+    font-size: 0.7vw;
 }
 
 #B2{
@@ -336,10 +337,12 @@ footer{
     width: 34%;
     padding-bottom: 1%;
     padding-right: 1%;
+    border: 2px solid white;
 }
 
 .TFinal{
     margin: 5% 0% 1.5% 3.7%;
+    font-size: 1.3vw;
 }
 
 #LineMedi{
@@ -377,18 +380,26 @@ footer{
 .TFinal2{
     margin: 5% 0% 0% 3.7%;
     height: 3.5vh;
-    width: 38%;
+    font-size: 1.3vw;
+    width: contain;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 .juntando{
-    display: flex;
+    display: grid;
+    grid-template-columns: 3.7% 37% 38% 10% 1fr;
+    grid-template-rows: 100%;
+    width: 100%;
 }
 
 .Setas{
-    margin: 5% 0% 0% 42%;
-    padding-right: 7.5%;
+    margin: 12% 0% 0% 0%;
+    padding-right: 9%;
     display: flex;
     height: 4vh;
+    grid-column-start: 4;
+    grid-column-end: 5;
 }
 
 .Seta1{
@@ -414,7 +425,7 @@ footer{
 .LineFooter{
     width: 10%;
     height: 0vh;
-    margin-left: 3.7%;
+    margin-left: 5%;
     margin-right: 17%;
     border: 1px solid rgb(0, 174, 255);
     margin-bottom: 5%;
@@ -431,6 +442,7 @@ footer{
     width: 34%;
     padding-bottom: 1%;
     padding-right: 1%;
+    border: 1px solid white;
 }
 
 .SetaD{

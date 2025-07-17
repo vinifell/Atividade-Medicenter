@@ -60,7 +60,7 @@ ul{
 }
 
 #introducao{
-    font-size: 1.1vw;
+    font-size: 1.4vw;
     padding: 0% 0% 5% 10%;
 }
 .linhas{
@@ -104,37 +104,50 @@ ul{
 
 .Quadrado1{
     background-color: rgb(43, 175, 236);
-    width: 34%;
+    width: 34vw;
+    display: grid;
+    grid-template-columns: 4% 25% 42% 1fr;
+    grid-template-rows: 4% 20% 42% 10% 1fr;
 }
 
 .Quadrado2{
     background-color: rgb(12, 140, 199);
-    width: 34%;
+    width: 34vw;
+    display: grid;
+    grid-template-columns: 4% 25% 42% 1fr;
+    grid-template-rows: 4% 20% 42% 10% 1fr;
 }
 
 .Quadrado3{
     background-color: rgb(34, 90, 153);
-    width: 34%;
+    width: 34vw;
 }
 
 .TQ{
-    padding: 4% 0% 0% 4%;
-    font-size: 1.7vw;
+    padding: 0% 0% 0% 0%;
+    font-size: 1.5vw;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 .PQ{
-    padding: 3% 19% 0% 4%;
+    padding: 0% 0% 0% 0%;
     font-size: 1vw;
+    grid-column: 2/4;
+    grid-row: 3/4
 }
 
 .ReadMore{
-    margin: 5% 0% 8% 4%;
-    padding: 1%;
+    margin: 10% 0% 6% 0%;
     background-color: rgb(43, 175, 236);
     border: 1px solid white;
     color: white;
     cursor: pointer;
-    font-size: 0.7vw;
+    font-size: 0.9vw;
+    grid-column: 2/3;
+    grid-row: 5/6;
 }
 
 #B2{
@@ -142,8 +155,9 @@ ul{
 }
 
 #TituloHoras{
-    padding: 4% 0% 2% 4%;
+    padding: 2% 0% 2% 4%;
     font-size: 200%;
+    font-size: 2vw;
 }
 
 .Dia-Hora{
@@ -152,6 +166,14 @@ ul{
     align-items: end;
     margin: 2% 4%;
     margin-right: 5%;
+}
+
+.Day{
+    font-size: 1.1vw;
+}
+
+.Hours{
+    font-size: 1.1vw;
 }
 
 .LinhaAzul{
@@ -524,19 +546,6 @@ span{
 .Seta1:hover, .Seta2:hover{
     padding: 0% 40%;
     height: 4.5vh;
-}
-
-@media screen and (min-width: 760px) and (max-width: 980px) {
-    ul{
-        height: 10vh;
-    }
-    .navegar{
-        height: contain;
-        line-height: 200%;
-        width: contain;
-        flex-wrap: wrap;
-        justify-content: start;
-    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 760px){

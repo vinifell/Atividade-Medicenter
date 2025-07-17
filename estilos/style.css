@@ -156,8 +156,7 @@ ul{
 
 #TituloHoras{
     padding: 2% 0% 2% 4%;
-    font-size: 200%;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .Dia-Hora{
@@ -169,11 +168,11 @@ ul{
 }
 
 .Day{
-    font-size: 1.1vw;
+    font-size: 1vw;
 }
 
 .Hours{
-    font-size: 1.1vw;
+    font-size: 1vw;
 }
 
 .LinhaAzul{
@@ -184,6 +183,7 @@ ul{
 
 #News{
     margin: 3.6% 0% 0.7% 3.7%;
+    font-size: 1.3vw;
 }
 
 #AreaNoticia{
@@ -204,7 +204,7 @@ ul{
     display: inline-block;
     margin: 1.2% 0% 2% 0%;
     position: relative;
-    font-size: 80%;
+    font-size: 0.7vw;
 }
 
 .Day2{
@@ -214,7 +214,7 @@ ul{
     padding: 2%;
     position: relative;
     right: 0.1%;
-    font-size: 80%;
+    font-size: 0.7vw;
 }
 
 .DayJan::after{
@@ -224,7 +224,7 @@ ul{
     position: absolute;
     border-right: 12px solid transparent;
     border-top: 12px solid rgb(30, 30, 190);
-    top: 20px;
+    top: 80%;
     left: 0px;
 }
 
@@ -235,11 +235,12 @@ ul{
 
 .TituloDaNoticia{
     margin: 0% 0% 5% 0%;
-    font-size: 200%;
+    font-size: 1.7vw;
 }
 
 .DescricaoNoticia{
     font-size: 100%;
+    font-size: 0.85vw;
     color: rgb(95, 95, 95);
 }
 
@@ -262,6 +263,7 @@ main{
 
 #TituloDep{
     margin: 3.6% 0% 0.7% 3.2%;
+    font-size: 1.3vw;
 }
 
 #LineDep{
@@ -273,6 +275,7 @@ main{
 #containerbox{
     margin-left: 0.4%;
     margin-bottom: 0%;
+    height: 105vh;
 }
 
 .box{
@@ -296,6 +299,7 @@ main{
 
 #Make{
     margin: 2% 0% 0.5% 3.6%;
+    font-size: 1.3vw;
 }
 
 #Consulta{
@@ -311,6 +315,7 @@ main{
 
 #DescConsulta{
     margin: 2% 0% 5% 3.6%;
+    font-size: 0.85vw;
 }
 
 .GrayLine{
@@ -327,6 +332,7 @@ main{
 .by{
     display: inline-block;
     margin-left: 0.3%;
+    font-size: 0.85vw;
 }
 
 .Contato{
@@ -345,12 +351,28 @@ footer{
     color: white;
 }
 
+#color3{
+    background-color: rgb(34, 90, 153);
+}
+
+.Quadrado4{
+    background-color: rgb(43, 175, 236);
+    width: 34vw;
+    display: grid;
+    grid-template-columns: 4% 25% 42% 1fr;
+    grid-template-rows: 4% 40% 20%;
+}
+
 .TSB{
-    padding: 4% 0% 2% 4%;
+    padding: 0% 0% 2% 0%;
+    grid-column: 2/4;
+    grid-row: 2/3;
 }
 
 .DSB{
-    padding: 0% 0% 4% 4%;
+    padding: 0% 0% 4% 0%;
+    grid-column: 2/4;
+    grid-row: 4/6;
 }
 
 .UltimasInf{
